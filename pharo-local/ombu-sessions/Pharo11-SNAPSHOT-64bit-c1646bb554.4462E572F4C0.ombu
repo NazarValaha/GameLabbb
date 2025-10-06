@@ -1,0 +1,502 @@
+OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T21:21:15.324+03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-c1646bb554.3BDACB605F40', '24' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'Date class'
+			},
+			#name : #'orthodoxEasterDateFor:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'orthodoxEasterDateFor: year\r "  compute the easter date according to the rules of the orthodox calendar.\r    source:       http://www.smart.net/~mmontes/ortheast.html   "\r     | r1 r2 r3 r4 ra rb r5 rc date |\r\r    r1 := year \\\\ 19.\r    r2 := year \\\\ 4.\r    r3 := year \\\\ 7.\r    ra := 19*r1 + 16.\r    r4 := ra \\\\ 30.\r    rb := r2 + r2 + (4*r3) + (6*r4).\r    r5 := rb \\\\ 7.\r    rc := r4 + r5.\r    date := self year: year month: 4 day: 3.\r    ^date addDays: rc.',
+			#stamp : 'orthodoxEasterDateFor 10/4/2025 21:21',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T21:21:33.931+03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'Date class'
+			},
+			#name : #'easterDateFor:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'easterDateFor: year\r "  compute the easter date.\r    source: Physikalisch-Technische Bundesanstalt Braunschweig.\r    Lichtenberg, H.: Zur Interpretation der Gaussschen Osterformel und ihrer Ausnahmeregeln, Historia Mathematica 24 (1997), pp. 441-444\r      http://www.ptb.de/de/org/4/44/441/oste.htm  "\r\r  | k m s a d r og sz oe day |\r\r  k := year // 100.\r  m := 15 + (3*k + 3//4) - (8*k + 13//25).\r   s := 2 - (3*k + 3// 4).\r  a := year \\\\ 19.\r  d := 19*a + m \\\\ 30.\r  r := d//29 + ((d//28) - (d//29)* (a// 11)).\r\r  og := 21 + d - r.\r  sz := 7 - (year//4 + year + s\\\\7).\r  oe := 7 - (og - sz\\\\7).\r  day := og + oe.\r  ^day <= 31\r    ifTrue: [ Date year: year month: 3 day: day ]\r    ifFalse: [ Date year: year month: 4 day: day - 31 ].',
+			#stamp : 'orthodoxEasterDateFor 10/4/2025 21:21',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T21:29:18.491+03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T21:29:20.607+03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #Date
+			},
+			#name : #'easterDateFor:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'easterDateFor: year\r "  compute the easter date.\r    source: Physikalisch-Technische Bundesanstalt Braunschweig.\r    Lichtenberg, H.: Zur Interpretation der Gaussschen Osterformel und ihrer Ausnahmeregeln, Historia Mathematica 24 (1997), pp. 441-444\r      http://www.ptb.de/de/org/4/44/441/oste.htm  "\r\r  | k m s a d r og sz oe day |\r\r  k := year // 100.\r  m := 15 + (3*k + 3//4) - (8*k + 13//25).\r   s := 2 - (3*k + 3// 4).\r  a := year \\\\ 19.\r  d := 19*a + m \\\\ 30.\r  r := d//29 + ((d//28) - (d//29)* (a// 11)).\r\r  og := 21 + d - r.\r  sz := 7 - (year//4 + year + s\\\\7).\r  oe := 7 - (og - sz\\\\7).\r  day := og + oe.\r  ^day <= 31\r    ifTrue: [ Date year: year month: 3 day: day ]\r    ifFalse: [ Date year: year month: 4 day: day - 31 ].',
+			#stamp : 'orthodoxEasterDateFor 10/4/2025 21:29',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T21:29:32.487+03:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T21:29:54.427+03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T21:29:56.544+03:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'Date class'
+			},
+			#name : #'orthodoxEasterDateFor:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'orthodoxEasterDateFor: year\r "  compute the easter date according to the rules of the orthodox calendar.\r    source:       http://www.smart.net/~mmontes/ortheast.html   "\r     | r1 r2 r3 r4 ra rb r5 rc date |\r\r    r1 := year \\\\ 19.\r    r2 := year \\\\ 4.\r    r3 := year \\\\ 7.\r    ra := 19*r1 + 16.\r    r4 := ra \\\\ 30.\r    rb := r2 + r2 + (4*r3) + (6*r4).\r    r5 := rb \\\\ 7.\r    rc := r4 + r5.\r    date := self year: year month: 4 day: 3.\r    ^date addDays: rc.',
+			#stamp : 'orthodoxEasterDateFor 10/4/2025 21:21',
+			#package : #Kernel
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'Date class'
+			},
+			#name : #'orthodoxEasterDateFor:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '"!Date class methodsFor: \'specific inquiries\' stamp: \'CamilloBruni 8/22/2013 19:47\'!"\r\rorthodoxEasterDateFor: year\r "  compute the easter date according to the rules of the orthodox calendar.\r    source:       http://www.smart.net/~mmontes/ortheast.html   "\r     | r1 r2 r3 r4 ra rb r5 rc date |\r\r    r1 := year \\\\ 19.\r    r2 := year \\\\ 4.\r    r3 := year \\\\ 7.\r    ra := 19*r1 + 16.\r    r4 := ra \\\\ 30.\r    rb := r2 + r2 + (4*r3) + (6*r4).\r    r5 := rb \\\\ 7.\r    rc := r4 + r5.\r    date := self year: year month: 4 day: 3.\r    ^date addDays: rc.',
+			#stamp : 'orthodoxEasterDateFor 10/4/2025 21:29',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T21:31:03.475+03:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T21:32:56.099+03:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T21:32:57.464+03:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'Date class'
+			},
+			#name : #'yearsWithMatchingEasterFrom:to:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'yearsWithMatchingEasterFrom: startYear to: endYear\r    "Повертає список років, коли православна і католицька Пасха припадають на один день"\r    | matchingYears orthodoxDate catholicDate |\r    matchingYears := OrderedCollection new.\r    (startYear to: endYear) do: [:year |\r        orthodoxDate := self orthodoxEasterDateFor: year.\r        catholicDate := self easterDateFor: year.\r        (orthodoxDate = catholicDate) ifTrue: [\r            matchingYears add: year\r        ].\r    ].\r    ^matchingYears asArray',
+			#stamp : 'orthodoxEasterDateFor 10/4/2025 21:32',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T21:33:57.053+03:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T22:23:55.46+03:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-04T23:53:08.563+03:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:00:50.338+03:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:04:06.452+03:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:04:30.529+03:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:04:37.928+03:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:09:22.057+03:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:10:09.409+03:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:11:10.359+03:00' ],
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:17:37.832+03:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:18:28.411+03:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:18:30.452+03:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #Integer
+			},
+			#name : #fibonacci,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'fibonacci\r        "Answer the nth fibonacci number, where n is the receiver."\r    ^self < 2\r        ifTrue: [1]\r        ifFalse:[(self - 1) fibonacci + (self - 2) fibonacci]',
+			#stamp : 'orthodoxEasterDateFor 10/5/2025 00:18',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:18:38.292+03:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'Integer class'
+			},
+			#name : #fibonacci,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'fibonacci\r        "Answer the nth fibonacci number, where n is the receiver."\r    ^self < 2\r        ifTrue: [1]\r        ifFalse:[(self - 1) fibonacci + (self - 2) fibonacci]',
+			#stamp : 'orthodoxEasterDateFor 10/5/2025 00:18',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:18:39.796+03:00' ],
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:18:58.323+03:00' ],
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:19:00.003+03:00' ],
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #Integer
+			},
+			#name : #fibo,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'fibo\r        "Frontend function to call fibStart: with: .\r         Answer the nth fibonacci number, where n is the receiver."\r    ^self fibStart:1 with:1',
+			#stamp : 'orthodoxEasterDateFor 10/5/2025 00:18',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:19:03.461+03:00' ],
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:19:10.501+03:00' ],
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'Integer class'
+			},
+			#name : #fibo,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'fibo\r        "Frontend function to call fibStart: with: .\r         Answer the nth fibonacci number, where n is the receiver."\r    ^self fibStart:1 with:1',
+			#stamp : 'orthodoxEasterDateFor 10/5/2025 00:19',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:19:12.168+03:00' ],
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:19:46.819+03:00' ],
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:19:48.383+03:00' ],
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'Integer class'
+			},
+			#name : #'fibStart:with:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'fibStart: n1 with: n2\r        "Private - Calculate the n-th Fibonacci number, where\r         n is the receiver, n1 is previous Fibonacci number\r         and n2 - the preprevious one."\r ^ (self < 2)\r        ifTrue: [ n1 ]\r        ifFalse:[ (self - 1) fibStart: n1+n2 with:n1 ]',
+			#stamp : 'orthodoxEasterDateFor 10/5/2025 00:19',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:19:52.821+03:00' ],
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:20:00.531+03:00' ],
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:20:03.112+03:00' ],
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #Integer
+			},
+			#name : #'fibStart:with:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'fibStart: n1 with: n2\r        "Private - Calculate the n-th Fibonacci number, where\r         n is the receiver, n1 is previous Fibonacci number\r         and n2 - the preprevious one."\r ^ (self < 2)\r        ifTrue: [ n1 ]\r        ifFalse:[ (self - 1) fibStart: n1+n2 with:n1 ]',
+			#stamp : 'orthodoxEasterDateFor 10/5/2025 00:20',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:20:04.978+03:00' ],
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:20:22.675+03:00' ],
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T00:21:08.791+03:00' ],
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}

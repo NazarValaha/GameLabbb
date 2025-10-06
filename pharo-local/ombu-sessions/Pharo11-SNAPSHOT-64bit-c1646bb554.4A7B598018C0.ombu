@@ -1,0 +1,979 @@
+OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:49:13.515+03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-c1646bb554.4774369C6E80', '6' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpCategoryRegistration {
+		#classCategoryName : #'LightsOutGame ',
+		#affectedPackageName : #'LightsOutGame '
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:52:01.266+03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpCategoryRegistration {
+		#classCategoryName : #LightsOutGame,
+		#affectedPackageName : #LightsOutGame
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:52:01.268+03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpCategoryAddition {
+		#classCategoryName : #LightsOutGame,
+		#affectedPackageName : #LightsOutGame
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:52:01.271+03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : 'SimpleSwitchMorph',
+				#definitionSource : 'SimpleSwitchMorph subclass: #LOCell\r\tinstanceVariableNames: \'mouseAction\'\r\tclassVariableNames: \'\'\r\tpackage: \'LightsOutGame\''
+			},
+			#name : #LOCell,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMetaSide : false,
+						#className : #LOCell
+					},
+					#name : #mouseAction,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'LOCell class\r\tinstanceVariableNames: \'\''
+				},
+				#name : #'LOCell class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMetaSide : false,
+					#className : #LOCell
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #LightsOutGame,
+			#package : #LightsOutGame,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:52:12.338+03:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:53:17.367+03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : 'SimpleSwitchMorph',
+				#definitionSource : 'SimpleSwitchMorph subclass: #LOCell\r\tinstanceVariableNames: \'mouseAction\'\r\tclassVariableNames: \'\'\r\tpackage: \'LightsOutGame\''
+			},
+			#name : #LOCell,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMetaSide : false,
+						#className : #LOCell
+					},
+					#name : #mouseAction,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'LOCell class\r\tinstanceVariableNames: \'\''
+				},
+				#name : #'LOCell class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMetaSide : false,
+					#className : #LOCell
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #LightsOutGame,
+			#package : #LightsOutGame,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialize
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:53:43.397+03:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOCell
+			},
+			#name : #initialize,
+			#protocol : #initialize,
+			#sourceCode : 'initialize\r  super initialize.\r  self label: \'\'.\r  self borderWidth: 2.\r  bounds := 0@0 corner: 16@16.\r  offColor := Color paleYellow.\r  onColor := Color paleBlue darker.\r  self useSquareCorners.\r  self turnOff.',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 22:53',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:53:45.06+03:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:57:53.648+03:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOCell
+			},
+			#name : #'mouseAction:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mouseAction: aBlock\r^ mouseAction := aBlock.',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 22:57',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:57:53.69+03:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOCell
+			},
+			#name : #'mouseAction:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mouseAction: aBlock\r^ mouseAction := aBlock.',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 22:57',
+			#package : #LightsOutGame
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOCell
+			},
+			#name : #'mouseAction:',
+			#protocol : #accessing,
+			#sourceCode : 'mouseAction: aBlock\r^ mouseAction := aBlock.',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 22:57',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:58:05.161+03:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOCell
+			},
+			#name : #'mouseUp:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mouseUp: anEvent\rmouseAction value.',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 22:58',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:58:05.189+03:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOCell
+			},
+			#name : #'mouseUp:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mouseUp: anEvent\rmouseAction value.',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 22:58',
+			#package : #LightsOutGame
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOCell
+			},
+			#name : #'mouseUp:',
+			#protocol : #'event handling',
+			#sourceCode : 'mouseUp: anEvent\rmouseAction value.',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 22:58',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:58:27.88+03:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : 'BorderedMorph',
+				#definitionSource : 'BorderedMorph subclass: #LOGame\r\tinstanceVariableNames: \'cells\'\r\tclassVariableNames: \'\'\r\tpackage: \'LightsOutGame\''
+			},
+			#name : #LOGame,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMetaSide : false,
+						#className : #LOGame
+					},
+					#name : #cells,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'LOGame class\r\tinstanceVariableNames: \'\''
+				},
+				#name : #'LOGame class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMetaSide : false,
+					#className : #LOGame
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #LightsOutGame,
+			#package : #LightsOutGame,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:58:54.717+03:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : 'BorderedMorph',
+				#definitionSource : 'BorderedMorph subclass: #LOGame\r\tinstanceVariableNames: \'cells\'\r\tclassVariableNames: \'\'\r\tpackage: \'LightsOutGame\''
+			},
+			#name : #LOGame,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMetaSide : false,
+						#className : #LOGame
+					},
+					#name : #cells,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'LOGame class\r\tinstanceVariableNames: \'\''
+				},
+				#name : #'LOGame class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMetaSide : false,
+					#className : #LOGame
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #LightsOutGame,
+			#package : #LightsOutGame,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialize
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:59:06.109+03:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOGame
+			},
+			#name : #initialize,
+			#protocol : #initialize,
+			#sourceCode : 'initialize\r | sampleCell width height n |\rsuper initialize.\rn := self cellsPerSide.\rsampleCell := LOCell new.\rwidth := sampleCell width.\rheight := sampleCell height.\rself bounds: (50@50 extent: ((width*n) @(height*n)) + (5 * self borderWidth)).\rcells := Array2D  new: n tabulate: [ :i :j | self newCellAt: i at: j ].',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 22:59',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:59:20.059+03:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOGame
+			},
+			#name : #cellsPerSide,
+			#protocol : #initialize,
+			#sourceCode : 'cellsPerSide\r"The number of cells along each side of the game"\r^10',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 22:59',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:59:31.202+03:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOGame
+			},
+			#name : #'newCellAt:at:',
+			#protocol : #initialize,
+			#sourceCode : 'newCellAt: i at: j\r"Create a cell for position (i,j) and add it to my on?screen\rrepresentation at the appropriate screen position. Answer the new cell"\r| c origin |\rc := LOCell new.\rorigin := self innerBounds origin.\rself addMorph: c.\rc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\rc mouseAction: [self toggleNeighboursOfCellAt: i at: j].\r^c',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 22:59',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T22:59:52.542+03:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOGame
+			},
+			#name : #'toggleNeighboursOfCellAt:at:',
+			#protocol : #initialize,
+			#sourceCode : 'toggleNeighboursOfCellAt: i at: j\r(i > 1) ifTrue: [ (cells at: i - 1 at: j ) toggleState].\r(i < self cellsPerSide) ifTrue: [ (cells at: i + 1 at: j) toggleState].\r(j > 1) ifTrue: [ (cells at: i at: j - 1) toggleState].\r(j < self cellsPerSide) ifTrue: [ (cells at: i at: j + 1) toggleState].',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 22:59',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:33:05.028+03:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOGame
+			},
+			#name : #'menuCommandOn:',
+			#protocol : #initialize,
+			#sourceCode : 'menuCommandOn: aBuilder\r  <worldMenu>\r(aBuilder item: #\'LOGame\')\r order: 5;\r with: [\r  (aBuilder item: #\'Run Game\')\r    order: 0;\r    action: [self open].\r ].',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:33',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:33:59.517+03:00' ],
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #'menuCommandOn:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'menuCommandOn: aBuilder\r  <worldMenu>\r(aBuilder item: #\'LOGame\')\r order: 5;\r with: [\r  (aBuilder item: #\'Run Game\')\r    order: 0;\r    action: [self open].\r ].',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:33',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:33:59.558+03:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #'menuCommandOn:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'menuCommandOn: aBuilder\r  <worldMenu>\r(aBuilder item: #\'LOGame\')\r order: 5;\r with: [\r  (aBuilder item: #\'Run Game\')\r    order: 0;\r    action: [self open].\r ].',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:33',
+			#package : #LightsOutGame
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #'menuCommandOn:',
+			#protocol : #'world menu',
+			#sourceCode : 'menuCommandOn: aBuilder\r  <worldMenu>\r(aBuilder item: #\'LOGame\')\r order: 5;\r with: [\r  (aBuilder item: #\'Run Game\')\r    order: 0;\r    action: [self open].\r ].',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:33',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:34:13.705+03:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #open,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'open\r^ self new openInWorld',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:34',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:34:13.722+03:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #open,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'open\r^ self new openInWorld',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:34',
+			#package : #LightsOutGame
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #open,
+			#protocol : #'instance creation',
+			#sourceCode : 'open\r^ self new openInWorld',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:34',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:39:05.617+03:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:39:07.562+03:00' ],
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : 'BorderedMorph',
+				#definitionSource : 'BorderedMorph subclass: #LOGame\r\tinstanceVariableNames: \'cells\'\r\tclassVariableNames: \'\'\r\tpackage: \'LightsOutGame\''
+			},
+			#name : #LOGame,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMetaSide : false,
+						#className : #LOGame
+					},
+					#name : #cells,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'LOGame class\r\tinstanceVariableNames: \'\''
+				},
+				#name : #'LOGame class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMetaSide : false,
+					#className : #LOGame
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #LightsOutGame,
+			#package : #LightsOutGame,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : 'BorderedMorph',
+				#definitionSource : 'BorderedMorph subclass: #LOGame\r\tinstanceVariableNames: \'cells\'\r\tclassVariableNames: \'TheGame\'\r\tpackage: \'LightsOutGame\''
+			},
+			#name : #LOGame,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMetaSide : false,
+						#className : #LOGame
+					},
+					#name : #cells,
+					#parent : @23
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'LOGame class\r\tinstanceVariableNames: \'\''
+				},
+				#name : #'LOGame class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @23
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMetaSide : false,
+					#className : #LOGame
+				},
+				#parent : @23,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [
+				RGClassVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMetaSide : false,
+						#className : #LOGame
+					},
+					#name : #TheGame,
+					#parent : @23
+				}
+			],
+			#category : #LightsOutGame,
+			#package : #LightsOutGame,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:39:22.271+03:00' ],
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOGame
+			},
+			#name : #open,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'open\r TheGame ifNil:\r [TheGame:= self new.\r  TheGame openInWorld]',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:39',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:39:22.289+03:00' ],
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOGame
+			},
+			#name : #open,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'open\r TheGame ifNil:\r [TheGame:= self new.\r  TheGame openInWorld]',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:39',
+			#package : #LightsOutGame
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOGame
+			},
+			#name : #open,
+			#protocol : #'instance creation',
+			#sourceCode : 'open\r TheGame ifNil:\r [TheGame:= self new.\r  TheGame openInWorld]',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:39',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:39:34.427+03:00' ],
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOGame
+			},
+			#name : #open,
+			#protocol : #'instance creation',
+			#sourceCode : 'open\r TheGame ifNil:\r [TheGame:= self new.\r  TheGame openInWorld]',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:39',
+			#package : #LightsOutGame
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOGame
+			},
+			#name : #open,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'open\r TheGame ifNil:\r [TheGame:= self new.\r  TheGame openInWorld]',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:39',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:39:34.468+03:00' ],
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : false,
+				#className : #LOGame
+			},
+			#name : #open,
+			#protocol : #'instance creation',
+			#sourceCode : 'open\r TheGame ifNil:\r [TheGame:= self new.\r  TheGame openInWorld]',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:39',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:39:34.469+03:00' ],
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpProtocolRemoval {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : 'BorderedMorph',
+				#definitionSource : 'BorderedMorph subclass: #LOGame\r\tinstanceVariableNames: \'cells\'\r\tclassVariableNames: \'TheGame\'\r\tpackage: \'LightsOutGame\''
+			},
+			#name : #LOGame,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMetaSide : false,
+						#className : #LOGame
+					},
+					#name : #cells,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'LOGame class\r\tinstanceVariableNames: \'\''
+				},
+				#name : #'LOGame class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMetaSide : false,
+					#className : #LOGame
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [
+				RGClassVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMetaSide : false,
+						#className : #LOGame
+					},
+					#name : #TheGame,
+					#parent : @7
+				}
+			],
+			#category : #LightsOutGame,
+			#package : #LightsOutGame,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'instance creation'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:39:42.495+03:00' ],
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #open,
+			#protocol : #'instance creation',
+			#sourceCode : 'open\r^ self new openInWorld',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:34',
+			#package : #LightsOutGame
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #open,
+			#protocol : #'instance creation',
+			#sourceCode : 'open\r TheGame ifNil:\r [TheGame:= self new.\r  TheGame openInWorld]',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:39',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:40:02.884+03:00' ],
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #close,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'close\rTheGame delete.\rTheGame := nil',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:40',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:40:02.9+03:00' ],
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #close,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'close\rTheGame delete.\rTheGame := nil',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:40',
+			#package : #LightsOutGame
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #close,
+			#protocol : #initialize-release,
+			#sourceCode : 'close\rTheGame delete.\rTheGame := nil',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:40',
+			#package : #LightsOutGame
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-06T23:40:14.744+03:00' ],
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #'menuCommandOn:',
+			#protocol : #'world menu',
+			#sourceCode : 'menuCommandOn: aBuilder\r  <worldMenu>\r(aBuilder item: #\'LOGame\')\r order: 5;\r with: [\r  (aBuilder item: #\'Run Game\')\r    order: 0;\r    action: [self open].\r ].',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:33',
+			#package : #LightsOutGame
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMetaSide : true,
+				#className : #'LOGame class'
+			},
+			#name : #'menuCommandOn:',
+			#protocol : #'world menu',
+			#sourceCode : 'menuCommandOn: aBuilder\r  <worldMenu>\r(aBuilder item: #\'LOGame\')\r order: 5;\r with: [\r  (aBuilder item: #\'Run Game\')\r    order: 0;\r    action: [self open].\r  (aBuilder item: #\'Exit Game\')\r    order: 1;\r    action: [self close].].',
+			#stamp : 'orthodoxEasterDateFor 10/6/2025 23:40',
+			#package : #LightsOutGame
+		}
+	}
+}

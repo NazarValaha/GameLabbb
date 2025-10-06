@@ -1,0 +1,43 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-09-19T20:34:55.721+03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'Iceberg open '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-09-19T20:36:38.957+03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'WorldMenu installDefault.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-09-19T20:37:53.612+03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'World resetWorldMenu.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-09-19T20:38:23.666+03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'SpWorldMenuPresenter rebuild.\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-09-19T20:39:09.938+03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : 'World resetWorldMenu\r\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-09-19T20:39:54.457+03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : 'World mainDockingBar openMenu.\r\r\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-09-19T20:40:01.627+03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : 'W\r\r\r\r\r'
+}

@@ -1,0 +1,61 @@
+OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T22:06:29.242+03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-c1646bb554.4462E572F4C0', '38' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T22:07:43.221+03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T22:12:17.644+03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T22:17:16.982+03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T22:17:35.103+03:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'orthodoxEasterDateFor',
+		#time : DateAndTime [ '2025-10-05T22:18:08.894+03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}

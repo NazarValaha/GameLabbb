@@ -1,0 +1,241 @@
+OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T18:21:26.143+03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-c1646bb554.21DC8B777318', '8756' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T18:45:31.607+03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:24:25.259+03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:30:51.557+03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:32:39.739+03:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:36:50.871+03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:38:05.27+03:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:38:46.472+03:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:38:58.074+03:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:39:25.759+03:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:39:54.319+03:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:40:16.609+03:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:40:54.589+03:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:52:47.679+03:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T19:56:13.388+03:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T20:03:23.43+03:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T20:04:37.114+03:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T20:04:42.42+03:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T20:04:54.548+03:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T20:05:08.365+03:00' ],
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T20:05:20.312+03:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T20:09:19.845+03:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T20:10:01.677+03:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-09-19T20:42:43.814+03:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Назар\\Documents\\Pharo\\images\\Pharo 11.0 - 64bit\\Pharo 11.0 - 64bit.image'
+	}
+}
